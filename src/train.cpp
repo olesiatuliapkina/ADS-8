@@ -32,7 +32,7 @@ void Train::addCage(bool l) {
         newCage->light = l;
         newCage->prev = newCage->next = nullptr;
         newCage->prev = c;
-        c->next = newCage;  
+        c->next = newCage;
         newCage->next = first;
         first->prev = newCage;
     }
