@@ -60,7 +60,7 @@ int Train::getLength() {
 
         count_steps_2 = 0;
         Cage* reverse = current->prev;
-        count_steps_2++
+        count_steps_2++;
 
         while (!reverse->light) {
             count_steps_2++;
