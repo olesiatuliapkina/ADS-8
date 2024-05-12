@@ -91,7 +91,7 @@ int Train::getLength() {
                     countOp = total_ops;
                     return count;
                 } else {
-                    count = 0;   
+                    count = 0;
                 }
             }
         }
