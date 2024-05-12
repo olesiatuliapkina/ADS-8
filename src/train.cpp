@@ -21,7 +21,7 @@ Train::~Train() {
 void Train::addCage(bool l) {
     if (!first) {
         first = new Cage;
-        first->light = l
+        first->light = l;
         first->prev = first;
         first->next = first;
     } else {
