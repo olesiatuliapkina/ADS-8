@@ -13,6 +13,7 @@ Train::~Train() {
         Cage *current = first;
         do {
             Cage *next = current->next;
+            delete curent;
             current = next;
         } while (current != first);
     }
