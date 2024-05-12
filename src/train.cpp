@@ -81,7 +81,6 @@ int Train::getLength() {
             count++;
             total_ops++;
 
-            
             if (current->light) {
                 current->light = false;
                 for (int i = 0; i < count; i++) {
